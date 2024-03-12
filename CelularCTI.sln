@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelularCTI.Model", "CelularCTI.Model\CelularCTI.Model.csproj", "{AC6A9453-0AF4-45D6-B7C9-CCC4C18C1BE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelularCTI.Desktop", "CelularCTIDesktop\CelularCTI.Desktop.csproj", "{4ADE2FB9-8219-455F-8F82-ED68AC09FC26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC6A9453-0AF4-45D6-B7C9-CCC4C18C1BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6A9453-0AF4-45D6-B7C9-CCC4C18C1BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6A9453-0AF4-45D6-B7C9-CCC4C18C1BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6A9453-0AF4-45D6-B7C9-CCC4C18C1BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ADE2FB9-8219-455F-8F82-ED68AC09FC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADE2FB9-8219-455F-8F82-ED68AC09FC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ADE2FB9-8219-455F-8F82-ED68AC09FC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ADE2FB9-8219-455F-8F82-ED68AC09FC26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F02B3040-1326-4940-96AE-5DDC171391CE}
+	EndGlobalSection
+EndGlobal
