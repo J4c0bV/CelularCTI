@@ -20,10 +20,12 @@ namespace CelularCTI.Model.Suporte
         //                              "User ID= postgres; password = postgres;";
 
 
-        static string stringConexao = "Server = pgsql.proetoscti.com.br; " +
-                                      "Database = projetosti; Port=5432;" +
-                                      "User ID= projetoscti; password = 123;";
-
+        //static string stringConexao = "Server = pgsql.proetoscti.com.br; " +
+        //                              "Database = projetosti; Port=5432;" +
+        //                              "User ID= projetoscti; password = 123;";
+        static string stringConexao = "Server = banco72a.postgresql.dbaas.com.br; " +
+                                      "Database = banco72a; Port=5432;" +
+                                      "User ID= banco72a; password = b@nco@unesp356;";
 
         static NpgsqlConnection cn;
         public static void Conectar()

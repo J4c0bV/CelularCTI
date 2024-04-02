@@ -13,7 +13,7 @@ namespace CelularCTI.Model
     {
         //Métodos Gerais Iniciais que criam os obj e representam as entidades do proj
 
-        public static Fabricante ObjFabricante(ref NpgsqlDataReader dtr)
+        private static Fabricante ObjFabricante(ref NpgsqlDataReader dtr)
         {
             Fabricante fab = new Fabricante();
             fab.Id_Fabricante = Convert.ToInt64(dtr["id_fabricante"]);
@@ -51,7 +51,7 @@ namespace CelularCTI.Model
             return a;
         }
 
-        public static Pedido ObjPedido(ref NpgsqlDataReader dr)
+        private static Pedido ObjPedido(ref NpgsqlDataReader dr)
         {
             Pedido ped = new Pedido();
             ped.Id_Pedido = Convert.ToInt64(dr["id_pedido"]);
@@ -143,7 +143,7 @@ namespace CelularCTI.Model
             return aparelho;
         }
 
-        public static List<Aparelho> BuscarAparelho(decimal precoMin, decimal precoMax)
+        public static List<Aparelho> BuscarAparelhos(decimal precoMin, decimal precoMax)
         {
             string sql;
             List<Aparelho> aparelho = new List<Aparelho>();
@@ -256,7 +256,7 @@ namespace CelularCTI.Model
                             "')";
 
                 ConexaoBanco.Executar(sql);
-
+                    
                 // Dando baixa no estoque do aparelho
                 ap.Quantidade--;
                 Salvar(ap);

@@ -79,5 +79,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CelularCTI.Model\CelularCTI.Model.csproj">
+      <Project>{ac6a9453-0af4-45d6-b7c9-ccc4c18c1be9}</Project>
+      <Name>CelularCTI.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
